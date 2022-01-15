@@ -16,5 +16,6 @@ node {
             sh 'sleep 30'
         }
     }
-//Dummy comment    
+    stage('Notify People')
+        sh 'echo Hello People'
 }
